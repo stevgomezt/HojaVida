@@ -122,3 +122,35 @@ h5 {
         text-align: left;
     }
 }
+
+.datos-personales {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.icono-dato {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    color: #333;
+}
+
+.icono-dato i {
+    margin-right: 10px;
+    font-size: 1.2rem;
+}
+
+.icono-dato a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.icono-dato a:hover {
+    color: #0056b3;
+}
+
+a.inactivo {
+    pointer-events: none;
+}
